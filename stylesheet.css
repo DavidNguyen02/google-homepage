@@ -6,34 +6,63 @@ div.logo {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    top: 25%;
+    top: 25.5%;
 }
 
 #search-bar {
     position: absolute;
-    left: 50%;
+    left: 50.5%;
     margin-right: -50%;
-    width: 600px;
-    height: 40px;
+    width: 560px;
+    height: 41px;
     transform: translate(-50%, -50%);
-    top: 35%;
+    top: 35.3%;
     border-radius: 25px;
+    border-color: #EEEEEE;
+    border-style: solid;
+    padding-left: 20px;
+    font-family: 'arial', sans-serif;
+    font-size: 16px;
+}
+
+#search-bar:hover, #search-bar:focus {
+    box-shadow: 0 1px 4px 0.5px #CCCCCC;
+    outline: none;
 }
 
 .buttons {
     position: absolute;
-    left: 50%;
+    left: 49.6%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    top: 41%;
+    top: 42.8%;
+}
+
+#search {
+    width: 127px;
+}
+
+#lucky {
+    width: 140px;
+    position: relative;
+    left: 8px;
 }
 
 #search, #lucky {
-    width: 140px;
-    height: 35px;
+    height: 34px;
     border-radius: 4px;
-    color: black;
+    color: #555555;
     background-color: rgb(240, 240, 240);
+    border: none;
+    border-style: solid;
+    border-color: rgb(240, 240, 240);
+    font-family: 'arial', sans-serif;
+    font-size: 14px;
+}
+
+#search:hover, #lucky:hover {
+    box-shadow: 0 0 2px gray;
+    color: black;
 }
 
 li {

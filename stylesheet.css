@@ -1,3 +1,6 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 div.logo {
     position: absolute;
     left: 50%;
@@ -31,4 +34,19 @@ div.logo {
     border-radius: 4px;
     color: black;
     background-color: rgb(240, 240, 240);
+}
+
+li {
+    display: inline;
+    padding: 8px;
+}
+
+li a {
+    color: #000000;
+    font-size: 12px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
 }

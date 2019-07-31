@@ -1,20 +1,30 @@
-div.logo{
+div.logo {
     position: absolute;
     left: 50%;
-    margin-right: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    top: 25%;
 }
 
 #search-bar {
     position: absolute;
     left: 50%;
-    margin-right: 50%;
+    margin-right: -50%;
+    width: 600px;
+    height: 40px;
+    transform: translate(-50%, -50%);
+    top: 35%;
 }
 
-#search {
+.buttons {
     position: absolute;
-    left: 51%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    top: 41%;
 }
-#lucky {
-    position: absolute;
-    left: 59%;
+
+#search, #lucky {
+    width: 140px;
+    height: 35px;
 }

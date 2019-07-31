@@ -43,10 +43,38 @@ li {
 
 li a {
     color: #000000;
-    font-size: 12px;
+    font-size: 12.5px;
 }
 
 ul {
     display: flex;
     justify-content: space-between;
+    margin-right: 20px;
+    margin-left: -30px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+
+.sign-in {
+    background-color: rgb(67, 135, 253);
+    color: white;
+    text-align: center;
+    border: none;
+    font-size: 14px;
+    padding: 7px 11px;
+    border-radius: 3px;
+}
+
+#menu-button {
+    filter: brightness(150%);
 }

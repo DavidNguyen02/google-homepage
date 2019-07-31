@@ -1,0 +1,20 @@
+div.logo{
+    position: absolute;
+    left: 50%;
+    margin-right: 50%;
+}
+
+#search-bar {
+    position: absolute;
+    left: 50%;
+    margin-right: 50%;
+}
+
+#search {
+    position: absolute;
+    left: 51%;
+}
+#lucky {
+    position: absolute;
+    left: 59%;
+}
